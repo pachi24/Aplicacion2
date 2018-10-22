@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "061e8dc0-4b96-47f3-9027-9b896659a0a8",
+		"name": "AppIonic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"hola\",\n\t\"year\": 5\n}"
+				},
+				"url": {
+					"raw": "alsmdasmd",
+					"host": [
+						"alsmdasmd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://192.168.1.43:8080/gymnastics",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"43"
+					],
+					"port": "8080",
+					"path": [
+						"gymnastics"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
