@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Gym La Manola
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <ion-input type="text" placeholder="Gymnastic's name" [(ngModel)]="nameGymnastic" name="nameGymnastic"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Select years" [(ngModel)]="year" name="year"></ion-input>
+    </ion-item>
+
+  </ion-list>
+  <div padding>
+    <button ion-button full large color="secondary" (click)="addGymnastic()">
+      <ion-icon name="add-circle"></ion-icon>
+    </button>
+  </div>
+
+</ion-content>

@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Gym La Manola
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<br><br><br><br><br>
+<ion-card>
+  
+
+  <ion-list>
+    <button ion-item (click)="goToAddPage()">
+      <ion-icon name="add" item-start></ion-icon>
+      Add
+    </button>
+
+    <button ion-item (click)="goToReadPage()">
+      <ion-icon name="eye" item-start></ion-icon>
+      Read
+    </button>
+
+    <button ion-item (click)="goToReadAllPage()">
+      <ion-icon name="remove-circle" item-start></ion-icon>
+      Read All
+    </button>
+
+    <button ion-item (click)="goToUpdatePage()">
+      <ion-icon name="refresh" item-start></ion-icon>
+      Update
+    </button>
+
+    <button ion-item (click)="goToDeletePage()">
+      <ion-icon name="remove-circle" item-start></ion-icon>
+      Delete
+    </button>
+
+
+  </ion-list>
+</ion-card>

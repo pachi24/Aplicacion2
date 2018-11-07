@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Gym La Manola
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+      <ion-item>
+          
+        <ion-input type="number" placeholder="id" [(ngModel)]="idGymnastic" name="idGymnastic"></ion-input>
+      </ion-item>
+    </ion-list>
+  
+    <div padding>
+        
+      <button ion-button full large color="secondary" (click)="deleteGymnasticFromWeb()">
+        <ion-icon name="trash" ></ion-icon>
+      </button>
+    </div>
+</ion-content>
